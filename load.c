@@ -1,9 +1,5 @@
 #include <stdio.h>
-#ifndef WIN32
-#include <dlfcn.h>
-#else
 #include <windows.h>
-#endif
 #include "load.h"
 int LoadRun(const char * const s, int i, int *mas, int size)
 {
